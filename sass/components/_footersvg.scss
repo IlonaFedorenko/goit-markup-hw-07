@@ -1,0 +1,25 @@
+.footer-icons {
+  display: flex;
+}
+.footer-icons__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-icons__svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.footer-icons__item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-icons__link:hover,
+.footer-icons__link:focus {
+  background-color: $accent-color;
+}

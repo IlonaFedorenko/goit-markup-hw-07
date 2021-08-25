@@ -1,0 +1,54 @@
+$primary-text-color: #757575;
+$second-color-white: #ffffff;
+$second-color-black: #212121;
+$accent-color: #2196f3;
+
+body {
+  color: $primary-text-color;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.14;
+  margin: 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+}
+ul,
+p {
+  padding: 0;
+  list-style: none;
+}
+.heading-text {
+  margin-bottom: 50px;
+}
+
+.heading-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2;
+  color: $second-color-black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.img,
+.team-images .box-gallery__images {
+  display: block;
+  width: 100%;
+  height: auto;
+}
