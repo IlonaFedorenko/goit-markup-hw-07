@@ -1,6 +1,7 @@
 .client-container {
   display: flex;
 }
+
 .client-container__link {
   align-items: center;
   display: flex;
@@ -12,10 +13,22 @@
   border-radius: 5%;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+
+  &:hover .client-container__icons,
+  &:focus .client-container__icons {
+    fill: $accent-color;
+  }
 }
+
 .client-container__item:not(:last-child) {
   margin-right: 30px;
 }
+
 .client-container__icons {
   display: flex;
   width: 106px;
@@ -23,12 +36,4 @@
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-container__link:hover,
-.client-container__link:focus {
-  border-color: $accent-color;
-}
-.client-container__link:hover .client-container__icons,
-.client-container__link:focus .client-container__icons {
-  fill: $accent-color;
 }

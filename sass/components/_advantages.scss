@@ -3,16 +3,20 @@
   color: $second-color-black;
   margin-bottom: 10px;
 }
+
 .advantages-container__text {
   line-height: 1.71;
   color: $primary-text-color;
 }
+
 .advantages-container__list:not(:last-child) {
   margin-right: 30px;
 }
+
 .advantages-container {
   display: flex;
 }
+
 .advantages-container__item {
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -21,6 +25,7 @@
   justify-content: center;
   margin-bottom: 30px;
 }
+
 .advantages-container__icon {
   height: 70px;
   width: 70px;

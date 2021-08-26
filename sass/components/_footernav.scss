@@ -3,13 +3,16 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer {
   display: flex;
   align-items: baseline;
 }
+
 .footer-element {
   margin-right: 70px;
 }
+
 .footer-element__logo {
   text-decoration: none;
   font-family: Raleway, cursive;
@@ -21,26 +24,32 @@
   margin-bottom: 20px;
   display: inline-block;
 }
+
 .footer-element__item {
   color: $accent-color;
 }
+
 .footer-nav {
   letter-spacing: 0.02em;
   font-weight: 500;
   color: $second-color-white;
   font-style: normal;
 }
+
 .footer-nav__address {
   margin-bottom: 9px;
 }
+
 .footer-nav__item:not(:last-child) {
   padding-bottom: 9px;
 }
+
 .footer-nav__link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   display: block;
 }
+
 .heading-footer {
   margin-bottom: 20px;
   color: $second-color-white;
@@ -48,19 +57,23 @@
   font-size: 14px;
   line-height: 1.14;
 }
+
 .footer.container {
   display: flex;
   align-items: baseline;
 }
+
 .footer-item {
   margin-right: 93px;
 }
+
 .icons-subscr {
   height: 24px;
   width: 24px;
   margin-left: 10px;
   fill: $second-color-white;
 }
+
 .mail-subscr {
   width: 358px;
   height: 50px;
@@ -76,6 +89,7 @@
   color: rgba(255, 255, 255, 0.6);
   padding-left: 10px;
 }
+
 .button-subscr {
   background-color: $accent-color;
   color: $second-color-white;
